@@ -1,9 +1,9 @@
-d=input()
-l=[]
-for i in range(len(d)):
-    for j in range(i,len(d)):
-        l.append(d[i:j+1])
-for q in l:
+data=input()
+list=[]
+for i in range(len(data)):
+    for j in range(i,len(data)):
+        list.append(data[i:j+1])
+for q in list:
     print(q,end=' ')
 print()
-print(len(l)+1)
+print(len(list)+1)
