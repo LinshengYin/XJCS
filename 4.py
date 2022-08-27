@@ -1,0 +1,6 @@
+a=input()
+b=input()
+c=input()
+print("name:"+a)
+print ('age:'+b)
+print("NO:"+c)
